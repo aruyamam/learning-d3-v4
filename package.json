@@ -1,0 +1,31 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "d3": "^4.12.0"
+  }
+}
