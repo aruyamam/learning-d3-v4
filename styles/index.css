@@ -3,7 +3,7 @@ html, body {
   margin: 0; 
 } 
 
-.axis path, .axis line { 
+/* .axis path, .axis line { 
   fill: none; 
   stroke: #eee; 
   shape-rendering: crispEdges; 
@@ -11,7 +11,7 @@ html, body {
 
 .axis text { 
   font-size: 11px; 
-} 
+}  */
 
 .bar { 
   fill: steelblue; 
